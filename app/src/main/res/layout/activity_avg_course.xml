@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context="stanwang.top.select.admin.AvgCourseActivity"
     android:orientation="vertical">
-
-
+    
     <android.support.design.widget.AppBarLayout
         android:id="@+id/mybar"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
                 android:textColor="#FFFFFF"
-                android:text="年级平均"
+                android:text="课程平均"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -39,8 +38,5 @@
         android:id="@+id/rec_course_avg"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-
-
 
 </LinearLayout>
